@@ -8,7 +8,7 @@ import './App.css'
 function App() {
     return (
     <div className="container">
-        <Titulo titulo="Informações sobre o CEP"/>
+        <Titulo titulo="Localizar CEP"/>
         <SearchCEP placeholder="Digite aqui seu CEP..."   />
     </div>
     )
