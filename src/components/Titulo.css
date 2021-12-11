@@ -1,0 +1,25 @@
+.titulo {
+    text-shadow: 1px 4px 6px rgba(0, 0, 0, 0.295);
+    font-size: 3.9em;
+    font-weight: bold;
+    text-align: center;
+    animation: flipTitle 1s;
+}
+
+@media (max-width: 413px) {
+    .titulo {
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@keyframes flipTitle {
+    from {
+        transform: rotateX(90deg);
+    }
+
+    to {
+        transform: rotateX(0);
+    }
+}

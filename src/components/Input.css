@@ -1,0 +1,32 @@
+.InputCamp {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    box-shadow: 1px 5px 9px rgba(0, 0, 0, 0.247);
+}
+
+.InputCamp .inputSearch {
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    padding: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+
+
+.InputCamp .btnSearch {
+    padding: 10px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+
+.InputCamp .btnSearch:active {
+    background-color: rgba(128, 128, 128, 0.212);
+    border-radius: 0px 10px 10px 0px;
+}

@@ -1,0 +1,19 @@
+.content {
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.37);
+    
+}
+
+
+.content h2 {
+    padding-bottom: 10px;
+}
+
+
+.content p {
+    padding-bottom: 12px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
